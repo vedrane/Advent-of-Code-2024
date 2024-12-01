@@ -8,4 +8,13 @@ To use, create a file called .env as so:
 AOC_SESSION=""
 ```
 Set AOC_SESSION to your Advent of Code session cookie. This is necessary to retrieve the input file.<br>
-In setup.py, you can change the filename and template content for your template file.
+In setup.py, you can change the filename and template content for your template file.<br>
+Then, run the following commands:
+```
+pip install python-dotenv
+pip install pytz
+```
+To use, run:
+```
+python setup.py
+```
