@@ -15,7 +15,7 @@ total1 = 0
 for i in range(len(left)):
     total1 += (abs(left[i] - right[i]))
 
-print("Total 1: " + total1)
+print("Total 1: " + str(total1))
 
 # Part 2
 
@@ -23,4 +23,4 @@ total2 = 0
 for i in range(len(left)):
     total2 += (left[i] * right.count(left[i]))
 
-print("Total 2: " + total2)
+print("Total 2: " + str(total2))
