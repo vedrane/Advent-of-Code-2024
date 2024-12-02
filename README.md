@@ -3,7 +3,7 @@ Solutions for AoC 2024
 
 ## setup.py
 setup.py downloads your input file for the day from the Advent of Code website and genarates a template file for your code.<br>
-To use, create a file called .env as so:
+First, create a file called .env as so:
 ```
 AOC_SESSION=""
 ```
